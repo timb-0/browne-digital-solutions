@@ -768,13 +768,27 @@
         <p>Let's discuss your project.</p>
       </div>
 
-      <form>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Business Name">
-        <textarea placeholder="Tell me about your project"></textarea>
-        <button class="btn btn-primary">Request A Quote</button>
-      </form>
+     <form action="https://api.web3forms.com/submit" method="POST">
+
+  <input type="hidden" name="access_key" value="25a54bd4-7179-47f2-ab21-baeb2c8c7673">
+
+  <input type="hidden" name="subject" value="New Browne Digital Solutions Lead">
+
+  <input type="checkbox" name="botcheck" style="display:none;">
+
+  <input type="text" name="name" placeholder="Name" required>
+
+  <input type="email" name="email" placeholder="Email" required>
+
+  <input type="tel" name="phone" placeholder="Phone Number">
+
+  <input type="text" name="business" placeholder="Business Name">
+
+  <textarea name="message" placeholder="Tell me about your project" required></textarea>
+
+  <button type="submit" class="btn btn-primary">Request A Quote</button>
+
+</form>
 
       <p style="margin-top:20px;text-align:center;color:#aeb8c8;">
         brownedigitalsolutions@gmail.com
